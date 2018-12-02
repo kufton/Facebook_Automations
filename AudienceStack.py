@@ -73,9 +73,9 @@ def fb_page_complete():
 # For Website Traffic Audiences
 
 def vc():
-	pyautogui.click(670, 450) , time.sleep(.4)
+	pyautogui.click(670, 450) , time.sleep(.4)  # this line is used a lot.
 	pyautogui.typewrite("ViewContent") , time.sleep(.4)
-	pyautogui.click(670, 570) , time.sleep(.4)
+	pyautogui.click(670, 570) , time.sleep(.4) # so is this.
 
 def atc():
 	pyautogui.click(670, 450) , time.sleep(.4)
